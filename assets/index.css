@@ -10340,6 +10340,11 @@ header, nav, section, article, aside, footer {
 .collections {
   display: flex;
   flex-flow: column nowrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center; }
+
+.collection {
   width: 100%; }
 
 .cards {
