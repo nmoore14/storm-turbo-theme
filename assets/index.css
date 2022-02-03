@@ -10369,3 +10369,7 @@ header, nav, section, article, aside, footer {
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: bold; }
+
+@media only screen and (max-width: 767px) {
+  .odd .card {
+    margin-left: 0; } }
