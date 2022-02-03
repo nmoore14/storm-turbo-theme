@@ -510,14 +510,14 @@ ul.border li {
 /*@media only screen and (max-width: 768px) {
   /* For mobile phones: */
 /*[class*="promo_banner"] {
-    
+
     width: 100%;
     height: auto;
     text-align:center!important;
     line-height:4;
   }
-  
-  
+
+
 }*/
 .promo_banner ~ .header {
   top: 25px; }
@@ -6192,7 +6192,7 @@ div.cloudzoom-ajax-loader {
   .container div.thumbnail.even {
     clear: left; }
   .container div.thumbnail.odd {
-    margin-left: 20px; }
+    margin-left: 0; }
   br.product_clear {
     display: none; } }
 

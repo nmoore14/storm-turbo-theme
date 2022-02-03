@@ -133,7 +133,7 @@ table {
   }
   #content_wrapper {
     background-color: #1b1f23;
-    
+
   }
 
   ::-moz-selection {
@@ -184,7 +184,7 @@ table {
     font-weight: normal;
     font-size: 18px;
     text-transform: none;
-    
+
   }
 
   h1,
@@ -353,12 +353,12 @@ table {
   .featured_links h2 { padding-top: 15px; }
 
   .feature_divider {
-    
+
       border: solid 2px;
       display: block;
       width: 70px;
       margin: 25px auto;
-    
+
 
     border-color: #7f8c8d;
   }
@@ -535,20 +535,20 @@ table {
   a {
     color: #1b1f23;
     font-size: 12px;
-    
+
   }
   p {
     margin: 0px;
     font-size: 14px;
     text-align:center;
-    
+
 
   }
   @include respond-to('medium'){
     position: absolute;
     font-size: 11px;
     width: 100%;
-  
+
     z-index: 200;
     top:35px;
   }
@@ -558,18 +558,18 @@ table {
   @include respond-to('medium'){
     .header-section {
       padding-top: 0px;
-     
+
     }
 
     .global-wrapper {
       margin-top: 25px;
-      
+
     }
 
     div.content {
       padding-top: 20px;
-      
-      
+
+
     }
   }
 }
@@ -577,14 +577,14 @@ table {
 /*@media only screen and (max-width: 768px) {
   /* For mobile phones: */
   /*[class*="promo_banner"] {
-    
+
     width: 100%;
     height: auto;
     text-align:center!important;
     line-height:4;
   }
-  
-  
+
+
 }*/
 
 
@@ -761,9 +761,9 @@ div#header a span {
 
 .feature_image .header .nav a, .feature_image .header .nav a.icon-cart, .feature_image .header .nav a.cart-button span, .feature_image .header select.currencies {
   color: #ffffff;
-  
+
     text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
-  
+
 }
 .feature_image .header .nav a:hover, .nav a.active, .header_bar a.active, .feature_image .header .nav a:focus {
   color: #b8c6c6 !important;
@@ -1020,7 +1020,7 @@ select.currencies option {
 .toggle_list a.active, .toggle_list a:hover, ul.blog_list a.active--default {
   border-left: solid 4px #B8C6C6;
   display: inline-block;
-  
+
 }
 
 .sidebar_content {
@@ -1169,7 +1169,7 @@ div.search-close {
 
   /* Swap to second image on hover */
 
-  
+
 
   /* Lazyloading styles */
 
@@ -1213,8 +1213,8 @@ div.search-close {
       background-color: #f3f3f3;
       fill: #7f8c8d;
     }
-    
-   
+
+
   }
 
   .featured-products-section {
@@ -1373,10 +1373,10 @@ div.search-close {
       cursor: pointer;
       width: 80%;
       height: auto;
-      
+
       margin: auto;
-      
-     
+
+
     }
     @media only screen and (max-width: 768px) {
   /* For mobile phones: */
@@ -1391,7 +1391,7 @@ div.search-close {
       position: relative;
       top: 0;
       left: 0;
-      
+
     }
     .first_button {
       pointer-events: true;
@@ -1527,9 +1527,9 @@ a.button,
     margin-bottom: 0px;
   }
   #cart textarea {
-    
+
       width: 90%;
-    
+
     margin: 10px 20px 0px 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -2097,7 +2097,7 @@ html.mm-bottom.mm-opened.mm-opening div.is-absolute {
   .thumbnail .info {
     margin-top: 0.75em;
   }
-  
+
     .thumbnail .info {
      text-align: center;
     }
@@ -2108,7 +2108,7 @@ html.mm-bottom.mm-opened.mm-opening div.is-absolute {
     .collection_swatches {
       text-align: center;
     }
-  
+
   .new {
     position: relative;
     display: inline;
@@ -2123,7 +2123,7 @@ html.mm-bottom.mm-opened.mm-opening div.is-absolute {
     margin-right: auto;
   }
 
-  
+
 
     .products .thumbnail img {
       height: 150px;
@@ -2146,7 +2146,7 @@ html.mm-bottom.mm-opened.mm-opening div.is-absolute {
       max-height: 150px;
     }
 
-  
+
 
   .thumbnail .price, .thumbnail .sold_out, .sold_out {
     font-weight: bold;
@@ -2196,7 +2196,7 @@ html.mm-bottom.mm-opened.mm-opening div.is-absolute {
 
   .size_chart {
     float: right;
-    
+
 
     .icon-arrow-right {
       font-size: 12px;
@@ -2338,7 +2338,7 @@ html.mm-bottom.mm-opened.mm-opening div.is-absolute {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="blog"] {
-    
+
   }
 }
   .blog h2 a {
@@ -2802,7 +2802,7 @@ html.mm-bottom.mm-opened.mm-opening div.is-absolute {
     border-top: solid 1px #1b1f23;
     background-color: #1b1f23;
     color: #6b6b6b;
-    
+
   }
 
   .index .footer {
@@ -3101,7 +3101,7 @@ html.mm-bottom.mm-opened.mm-opening div.is-absolute {
     padding-top: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-   
+
   }
 }
 /*
@@ -3158,9 +3158,9 @@ html[xmlns] .slides {display: block;}
   position: relative;
   letter-spacing: 3px;
   color: #ffffff;
-  
+
     text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
-  
+
 }
 
 .subtitle p {
@@ -3173,9 +3173,9 @@ html[xmlns] .slides {display: block;}
   margin-bottom: 1.5em;
   position: relative;
   color: #ffffff;
-  
+
     text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
-  
+
   }
 
 .headline, .subtitle p {
@@ -3636,14 +3636,14 @@ html[xmlns] .slides {display: block;}
 
   .newsletter_popup {
     background: #ffffff url("//cdn.shopify.com/s/files/1/0609/0106/4960/files/bicycle-art_1200x.jpg?v=1642516645") center center;
-    
+
       background-repeat:no-repeat;
       background-attachment:fixed;
       -webkit-background-size:cover;
       -moz-background-size:cover;
       -o-background-size:cover;
       background-size:cover;
-    
+
   }
   .newsletter_popup .fancybox-skin {
     background-color: transparent;
@@ -3665,7 +3665,7 @@ html[xmlns] .slides {display: block;}
   -ms-user-select:none;
   user-select:none;
   -webkit-tap-highlight-color:rgba(0,0,0,0);
-  
+
 }
 .cloudzoom-lens {
   border:none;
@@ -3929,12 +3929,12 @@ div.cloudzoom-ajax-loader {
         .container .two-thirds.column { width: 300px; }
         .container .one-fifth.column  { width: 140px; }
 
-        
+
           .container .thumbnail.even, .container .thumbnail.odd  { width: 140px !important; }
           .container div.thumbnail.even  { clear: left }
           .container div.thumbnail.odd  { margin-left: 20px }
           br.product_clear { display: none }
-        
+
 
         /* Offsets */
         .container .offset-by-one,
@@ -3989,12 +3989,12 @@ div.cloudzoom-ajax-loader {
         .container .two-thirds.column { width: 420px; }
         .container .one-fifth.column  { width: 200px;}
 
-        
+
           .container .thumbnail.even, .container .thumbnail.odd  { width: 200px !important; }
           .container div.thumbnail.even  { clear: left }
-          .container div.thumbnail.odd  { margin-left: 20px }
+          .container div.thumbnail.odd  { margin-left: 0 }
           br.product_clear { display: none }
-        
+
     }
 
 
@@ -4095,7 +4095,7 @@ div.cloudzoom-ajax-loader {
     .homepage_slider .flex-direction-nav {
       display: none;
     }
-    
+
     .article_image {
       padding-bottom: 0;
     }
@@ -4144,7 +4144,7 @@ div.cloudzoom-ajax-loader {
     }
     #cart input.quantity { width: 24px; }
 
-    
+
     .is-absolute { top: 0px !important; }
     p.mm-counter {
       right: 20px;
@@ -4254,7 +4254,7 @@ div.cloudzoom-ajax-loader {
     font-size: 1.3em;
     line-height: 1.2em;
     position: relative;
-    
+
   }
   .subtitle p {
     font-size: 1.1em;
@@ -4590,18 +4590,18 @@ html:hover [class^="ss-"]{-ms-zoom: 1;}
   background-color: #000000;
   color: #ffffff;
 
-  
-    background: url(//cdn.shopify.com/s/files/1/0609/0106/4960/t/5/assets/password-page-background.jpg?v=4816566738758532175) center center;
-  
 
-  
+    background: url(//cdn.shopify.com/s/files/1/0609/0106/4960/t/5/assets/password-page-background.jpg?v=4816566738758532175) center center;
+
+
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  
+
 }
 input#password {
   width: 100%;
@@ -5193,7 +5193,7 @@ div.product-details {
   position: relative;
   opacity: 1;
   z-index: 1;
-  
+
 }
 
 .hsContainer.image-darken--true::after {
@@ -5216,20 +5216,20 @@ div.product-details {
   width: 100%;
   z-index: 2;
   position: relative;
-  
-  
+
+
   .container {
-    
+
     pointer-events: none;
     padding-left: 0px;
-    
-   
+
+
   }
   .subtitle p a {
     pointer-events: all;
-   
+
   }
-  
+
   .action_button {
     pointer-events: all;
   }
@@ -5332,13 +5332,13 @@ div.product-details {
   }
 
   .bcg {
-    
+
       background-size: cover;
-    
+
     background-attachment: scroll;
   }
 
-  
+
 
   .hsContainer a.action_button {
     padding: 2px 10px;
@@ -5350,9 +5350,9 @@ div.product-details {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
   .bcg {
-    
+
       background-size: cover;
-    
+
     background-attachment: scroll;
   }
 }
