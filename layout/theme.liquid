@@ -36,7 +36,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="{{ settings.shop_bg_color }}">
 
-    {{ 'styles.scss.css' | asset_url | stylesheet_tag }}
+    {{ 'index.css' | asset_url | stylesheet_tag }}
 
     {% if settings.favicon != nil %}
       <link rel="shortcut icon" type="image/x-icon" href="{{ settings.favicon | img_url: '32x32' }}">
@@ -60,7 +60,7 @@
 
     {{ content_for_header }}
     {% include 'judgeme_core' %}
-{% include 'booster-common' %}																																																																																																																							<meta name="ahrefs-site-verification" content="2baad1be0e956a05c9e69321ef31140a07f9f2ae02fae0dcffcf1565f6e5b0a9">																																																																										
+{% include 'booster-common' %}																																																																																																																							<meta name="ahrefs-site-verification" content="2baad1be0e956a05c9e69321ef31140a07f9f2ae02fae0dcffcf1565f6e5b0a9">
 </head>
 
   {% if template contains "index" %}
@@ -118,7 +118,7 @@
         <script id="dsq-count-scr" src="//{{ settings.disqus_shortname }}.disqus.com/count.js" async></script>
       {% endif %}
     {% endif %}
-    
+
     <!-- Facebook Pixel Code -->
 <script>
   !function(f,b,e,v,n,t,s)
@@ -136,7 +136,7 @@
   src="https://www.facebook.com/tr?id=919833662178711&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-  
+
 <!-- **BEGIN** Hextom FSB Integration // Main Include - DO NOT MODIFY -->
     {% render 'hextom_fsb_main', product: product, customer: customer %}
     <!-- **END** Hextom FSB Integration // Main Include - DO NOT MODIFY -->
