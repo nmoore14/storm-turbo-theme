@@ -10333,8 +10333,3 @@ header, nav, section, article, aside, footer {
     opacity: 0; }
   100% {
     opacity: 100; } }
-
-/* Storm custom */
-.slideshow-headline {
-  filter: drop-shadow(4px 4px 10px green);
-}
