@@ -1,0 +1,8 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    filter: drop-shadow(4px 4px rgba(0, 0, 0, .75));
+}
