@@ -10341,7 +10341,7 @@ header, nav, section, article, aside, footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-items: center;
+  justify-content: center;
   align-items: center; }
 
 .card {
