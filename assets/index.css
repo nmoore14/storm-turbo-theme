@@ -10343,6 +10343,8 @@ header, nav, section, article, aside, footer {
   width: 100%;
   justify-content: center;
   align-items: center; }
+  .collections .sixteen .columns {
+    width: 100%; }
 
 .collection {
   width: 100%; }

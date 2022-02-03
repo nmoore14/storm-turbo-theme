@@ -4,6 +4,12 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+
+    .sixteen {
+        .columns {
+            width: 100%;
+        }
+    }
 }
 
 .collection {
