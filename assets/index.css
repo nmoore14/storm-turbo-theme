@@ -10346,7 +10346,7 @@ header, nav, section, article, aside, footer {
 
 .card {
   margin: .5rem;
-  min-width: 200px;
+  min-width: auto;
   max-width: 300px;
   padding: .5rem;
   background: #2D3236;
@@ -10355,5 +10355,5 @@ header, nav, section, article, aside, footer {
   .card a .info .title {
     text-transform: uppercase;
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400; }
