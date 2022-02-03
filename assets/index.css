@@ -6133,7 +6133,7 @@ div.cloudzoom-ajax-loader {
   .container div.thumbnail.even {
     clear: left; }
   .container div.thumbnail.odd {
-    margin-left: 20px; }
+    margin-left: 0px; }
   br.product_clear {
     display: none; }
   /* Offsets */
