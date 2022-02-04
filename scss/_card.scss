@@ -14,6 +14,7 @@
     background: #2D3236;
     box-shadow: 0px 13px 36px 10px rgba(0, 0, 0, 0.4);
     border-radius: 20px;
+    transition: all 0.5s ease-in-out;
 
     a {
         .info {
@@ -25,6 +26,12 @@
             }
         }
     }
+}
+
+/* Hover actions */
+.card:hover {
+    transform: scale(1.25);
+    transition: all 0.5s ease-in-out;
 }
 
 @media only screen and (max-width: 767px) {
