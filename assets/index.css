@@ -10376,6 +10376,7 @@ header, nav, section, article, aside, footer {
 .card:hover {
   z-index: 5;
   transform: scale(1.05);
+  box-shadow: 0px 0px 36px 30px rgba(0, 0, 0, 0.6);
   transition: all 0.5s ease-in-out; }
 
 @media only screen and (max-width: 767px) {
