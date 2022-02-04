@@ -1,12 +1,12 @@
 {% if section.settings.promo_text != blank %}
   {% if section.settings.promo_home_page and template.name == 'index' %}
-    <div class="promo_banner js-promo_banner--index sticky-promo--{{ section.settings.fixed_header }}">
+    <div class="promo_banner js-promo_banner--index sticky-promo--{{ section.settings.fixed_header }} header-promo">
       {% if section.settings.announcement_link %}<a href="{{ section.settings.announcement_link }}" >{% endif %}
         {{ section.settings.promo_text }}
       {% if section.settings.announcement_link %}</a>{% endif %}
     </div>
   {% elsif section.settings.promo_home_page == false %}
-    <div class="promo_banner js-promo_banner--global sticky-promo--{{ section.settings.fixed_header }}">
+    <div class="promo_banner js-promo_banner--global sticky-promo--{{ section.settings.fixed_header }} header-promo">
       {% if section.settings.announcement_link %}<a href="{{ section.settings.announcement_link }}">{% endif %}
         {{ section.settings.promo_text }}
       {% if section.settings.announcement_link %}</a>{% endif %}

@@ -1,3 +1,7 @@
+.header-promo {
+  display: flex;
+  flex-flow: row nowrap; }
+
 /******************************************************************
 Theme Name: Parallax 3.3.2
 Theme URI: http://themes.shopify.com/themes/parallax/styles/aspen?ref=out-of-the-sandbox
