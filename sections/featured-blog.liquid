@@ -14,7 +14,7 @@
       {% endif %}
 
       {% for article in blog.articles limit: section.settings.home_page_articles %}
-        <div class="{% if section.settings.home_page_articles == 2 %}eight columns{% elsif section.settings.home_page_articles == 3 %}one-third column{% else %}four columns{% endif %} article">
+        <div class="{% if section.settings.home_page_articles == 2 %}eight columns{% elsif section.settings.home_page_articles == 3 %}one-third column{% else %}four columns{% endif %} article blog_card">
           {% if article.image %}
             <a href="{{ article.url }}" title="{{ article.title | escape }}">
               <img  src="{{ article.image | img_url: '300x' }}"
