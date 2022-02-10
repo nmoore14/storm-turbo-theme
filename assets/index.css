@@ -10337,6 +10337,9 @@ header, nav, section, article, aside, footer {
 .slideshow-headline {
   background-color: black; }
 
+.slideshow-subtitle {
+  background-color: black; }
+
 .collections {
   display: flex;
   flex-flow: column nowrap;
