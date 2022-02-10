@@ -10383,5 +10383,4 @@ header, nav, section, article, aside, footer {
   .card {
     margin-left: 0; } }
 
-.blog-card {
-  background: #2D3236; }
+/* @import 'blog-card'; */
