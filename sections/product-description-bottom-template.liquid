@@ -192,7 +192,7 @@
           {% assign skip_product = product %}
           {% assign products = collections[col].products %}
           {% assign products_per_row = section.settings.products_per_row %}
-          {% include 'product-loop' with sidebar: sidebar %}
+          {% include 'product-loop' with sidebar, sidebar: sidebar %}
         {% endif %}
       {% endif %}
     {% endif %}
@@ -370,3 +370,13 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'product-loop' with sidebar: sidebar %}"
+  to: "{% include 'product-loop' with sidebar, sidebar: sidebar %}"
+  position: 8706..8765
+{% endcomment %}
